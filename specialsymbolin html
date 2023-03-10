@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+    </head>
+    <body style="background-color:aqua">
+        <h1 sytle="color:green;text-align:centre;">
+            special symbols in html &it; their use 
+        </h1>
+        <p>
+            hey their am using this consistency &amp; &gt;daily
+            
+        </p>
+
+
+    </body>
+</html>
