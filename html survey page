@@ -58,7 +58,7 @@
 
 </head>
 <body>
-    <h1> Hey there i am lucky </h1>
+   <i> <h1> creating a survey page with help of css and html  </h1></i>
     <form id="form">
         <div class="from-control">
             <label for="name" id="label-name">
