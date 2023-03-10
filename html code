@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.00">
+<title>
+    Build a survey page using html and css 
+</title>
+<style>
+    body {
+        background-color: blueviolet;
+        font-family: Verdana;
+        text-align: centre;
+    }
+    form {
+        background-color: #05c46b;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    .form-control label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        padding: 10px;
+            display: block;
+            width: 95%;
+    }
+    .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        
+ 
+</style>
+
+
+</head>
+<body>
+    <h1> Hey there i am lucky </h1>
+    <form id="form">
+        <div class="from-control">
+            <label for="name" id="label-name">
+                NAME
+            </label>
+            <input type="name" 
+            id="name"
+             placedholder="enter the name" />
+
+
+        </div>
+        <br><br>
+        <div class="form-control">
+            <label for="email" id="label-email">
+                EMAIL 
+            </label>
+            <input type="email" id="email" placeholder="enter your email" />
+        </div><br><br>
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age 
+            </label>
+            <input type="text"
+            id="age"
+            placeholder="enter your age" />
+
+        </div><br><br>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                which option best describes you?
+            </label>
+            <select name="role" id="roel">
+                <option value="student">studnet</option>
+                <option value="intern">intern</option>
+                <option vlaue="other">other</option>
+            </select>
+        </div><br><br>
+        <div class="from-control">
+            <label>
+                would yor recommend it 
+            </label><br><br>
+            <label for="recommed-1">
+                <input type="radio" 
+                id="recommed-1"
+                name="recommed">yes</input>
+
+
+            </label>
+            <br><br>
+            <label for="recommed-2">
+                <input type="radio"
+                id="recommed-2"
+                name="recommed">no</input>
+            </label>
+            <br><br>
+            <lable for="recommed-3">
+                <input type="radio"
+                id="recommed-3"
+                namae="recommed">maybe</input>
+            </lable>
+        </div>
+        <br><br>
+        <div class="form-control">
+            <label>Languages and framework known 
+            <small>(checl all that apply)</small></label>
+            <label for="inp-1">
+                <input type="checkbox"
+                name="inp">C</input>
+            </label>
+            <label for="inp-2"><input type="checkbox" name="inp">c++</input> 
+            </label>
+            <label for="inp-3">
+                <input type="checkbox"
+                name="inp">python</input>
+
+            </label>
+            <lable for="inp-4">
+                <input type="checkbox"
+                name="inp">react</input>
+            </lable><br><br>
+            <div class="form-control">
+                <label for="comment">
+                    Any comments or suggestions
+                </label>
+     
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment"
+                    placeholder="Enter your comment here">
+                </textarea>
+                <button type="submit" value="submit">
+                    Submit
+                </button>
+            </div>
+
+        </div>
+
+
+        
+    </form>
+
+
+
+
+
+</body>
+</html>
