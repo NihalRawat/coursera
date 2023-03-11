@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charste="utf-8">
+        <title>links</title>
+
+    </head>
+    <body>
+        <h1 id="top">Limks to sections of The same Page</h1>
+        <section>
+            <ul>
+                <li><a href="#section1">#sectoin1</a></li>
+                <li><a href="#section2">#section2</a></li>
+                <li><a href="#section3">#section3</a></li>
+
+
+            </ul>
+        </section>
+        <section id="section1">
+            <h3>(#section1) section 1</h3>
+            <p>
+                Introducing ChatGPT
+We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.
+
+            </p>
+        </section>
+        <section id="section2">
+            <h3>(#section2) Section 2</h3>
+            <p>
+                The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards. Led by Web inventor and Director Tim Berners-Lee, Interim CEO Ralph Swick and a Board of Directors, W3C's mission is to lead the Web to its full potential. Contact W3C for more information.
+                
+                What are the W3C standards?
+The W3C standards describe the best practices of web development. These range from recommended programming languages such as HTML and CSS, to the generally accepted principles of web architecture and services.
+
+Technologies that are listed as standards are, as far as the W3C is concerned, the most appropriate solutions currently available for mass use.
+
+The W3C standards are not formally enforced, there is no legal penalty for ignoring their advice. In fact, there are instances when deviations from the standards are acceptable or even necessary in pursuit of a specific use case. However, generally speaking it is good practice to follow the guidelines.
+
+
+                W3C plans to stop providing the on-line unified validator service Unicorn as of 31 March 2023, due to lack of resources to maintain the project. We encourage interested
+
+            </p>
+        </section>
+        <section id="section3">
+            <h3>
+                (#section3) Section 3
+            </h3>
+            <p>
+                , we are building GitHub on GitHub. In fact, we’ve been doing this since October 19th, 2007. That's when we made our first commit. Since then we pushed over 2.5 million
+
+            </p>
+
+        </section>
+        <div>
+            <h2><a name="section3">(#section3) section 3</a></h2>
+            <p>
+                back to top: <a href=""#top></a>           </p>
+        </div>
+    </body>
+</html>
